@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:base {
+    --purple-text: rgb(113, 83, 196);
+    --d-purple: rgb(105, 5, 171);
+    --nd-purple: rgb(136, 52, 166);
+}
+
+
+
+
+html {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif, 'Times New Roman', Times, serif,Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+#mobile-size {
+    display: none;
+
+}
+
+.nav-bar{
+position: absolute;
+z-index: 2;
+width: 100%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+    list-style: none;
+    height: 60px;
+    background-color: rgb(184, 148, 218);
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+
+#laszlo{
+
+    color: rgb(99, 20, 174);
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin:left 0px;
+
+
+}
+/* Second */
+
+.content{
+
+    position:relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden
+
+}
+
+
+.overlay{
+
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(167, 143, 192);
+    z-index: 1;
+
+}
+
+.second-text{
+
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 30px;
+    color: aliceblue;
+    text-transform: uppercase;
+    z-index: 2;
+
+}
+
+.phrase {
+color: blueviolet;
+font-weight: bold;
+
+}
+
+.contact .projects .about{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+    list-style: none;
+    height: 60px;
+    background-color: rgb(184, 148, 218);
+}
+
