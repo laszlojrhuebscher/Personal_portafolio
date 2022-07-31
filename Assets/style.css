@@ -26,10 +26,6 @@ a {
 }
 
 
-#mobile-size {
-    display: none;
-
-}
 
 .nav-bar{
 position: absolute;
@@ -56,7 +52,7 @@ li a{
 
 #laszlo{
 
-    color: rgb(99, 20, 174);
+    color: blueviolet;
     font-size: 3.5vh;
     font-weight: bold;
     margin:left 0px;
@@ -109,14 +105,49 @@ font-weight: bold;
 
 }
 
-.contact .projects .about{
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15%;
-    list-style: none;
-    height: 60px;
-    background-color: rgb(184, 148, 218);
+.flex {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  min-height: 200px;
+  margin: 1vh;
+  background-color:rgb(184, 148, 218) ;
+  border: 5px;
+  border-color: rgb(135, 75, 190);
 }
 
+.about{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.5vh;
+
+}
+
+.title {
+    
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    min-height: 35px;
+    margin: auto ;
+    align-items: center;
+    font-size: 3vh;
+    color: rgb(185, 102, 213);
+    border: 1px ;
+    outline-style: solid;
+    outline-color: rgb(156, 88, 183);
+    outline-width: 5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+.list {
+
+    display:list-item;
+    align-items:center;
+    margin: auto;
+
+
+}
